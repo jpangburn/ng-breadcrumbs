@@ -9,10 +9,19 @@ This project was built using [ng-boilerplate](https://github.com/ianwalter/ng-bo
 
 #### Step 1: Install ng-breadcrumbs
 
-Install using Bower:
+Install using Bower (this is currently broken as Ian's original repository seems to be gone):
 
 ```
 bower install ng-breadcrumbs --save
+```
+
+To use this repository, instead use:
+```
+bower install https://github.com/jpangburn/ng-breadcrumbs.git#master --save
+```
+Or in your bower.json, put this in the dependencies list:
+```javascript
+"ng-breadcrumbs": "https://github.com/jpangburn/ng-breadcrumbs.git#master"
 ```
 
 Include ng-breadcrumbs.min.js in your app.
